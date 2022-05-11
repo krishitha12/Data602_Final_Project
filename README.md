@@ -5,6 +5,9 @@ This is an NLP experiment with the goal of understanding the emotion behind Amaz
 Dataset Link:
 http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Cell_Phones_and_Accessories_5.json.gz
 
+# YouTube Link
+https://youtu.be/k1d4t8knzLI
+
 # What is NLP ?
 Natural language processing (NLP) is a technique for translating computer and human languages. It is a technique for enabling a computer to sensibly comprehend a line of text without using any form of hint or computation. In other words, NLP automates computer-to-human translation. source
 
