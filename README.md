@@ -1,18 +1,13 @@
 # Data602_Final_Project
 # Introduction
-This is a NLP project with a objective to understand the sentiment behind the cell phone review on amazon.
+This is an NLP experiment with the goal of understanding the emotion behind Amazon's cell phone reviews..
 
 # What is NLP ?
-Natural language processing (NLP) is a method to translate between computer and human languages. It is a method of getting a computer to understandably read a line of text without the computer being fed some sort of clue or calculation. In other words, NLP automates the translation process between computers and humans. source
+Natural language processing (NLP) is a technique for translating computer and human languages. It is a technique for enabling a computer to sensibly comprehend a line of text without using any form of hint or computation. In other words, NLP automates computer-to-human translation. source
 
 # Overview
-This project is sentiment analysis project. As the name suggests, sentiment analysis is used to identify the sentiments among several cell phone 
-reviews on amazon. It is also used to identify the sentiment where the emotions are not expressed explicitly. Companies are using sentiment analysis, 
-an application of natural language processing (NLP) to identify the opinion and sentiment of their customers online. 
-It will help companies to understand what their customers think about the products and services.
-Companies can judge their overall reputation from customer posts with the help of sentiment analysis. 
-In this way, we can say that beyond determining simple polarity, sentiment analysis understands sentiments in context to help us better understand 
-what is behind the expressed opinion.
+This is a sentiment analysis project. Sentiment analysis, as the name implies, is used to determine attitudes within many cell phone ratings on Amazon. It is also utilized to discern sentiment when the feelings are not clearly conveyed. Companies are employing sentiment analysis, a natural language processing (NLP) technology, to determine their consumers' opinions and sentiments online. It will assist businesses in understanding what their consumers think about their products and services. With the use of sentiment analysis, businesses may assess their entire reputation based on consumer posts.
+In this approach, we may argue that sentiment analysis goes beyond establishing mere polarity to assist us better comprehend what is underlying the expressed viewpoint..
 
 I have performed Sentiment Analysis on an amazon reviews dataset that is available to
 download here. There are 1128437 rows and 12 columns in the dataset. Below is the table
