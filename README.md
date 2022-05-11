@@ -1,9 +1,11 @@
 # Data602_Final_Project
-Introduction
+# Introduction
 This is a NLP project with a objective to understand the sentiment behind the cell phone review on amazon.
-What is NLP ?
+
+# What is NLP ?
 Natural language processing (NLP) is a method to translate between computer and human languages. It is a method of getting a computer to understandably read a line of text without the computer being fed some sort of clue or calculation. In other words, NLP automates the translation process between computers and humans. source
-Overview
+
+# Overview
 This project is sentiment analysis project. As the name suggests, sentiment analysis is used to identify the sentiments among several cell phone 
 reviews on amazon. It is also used to identify the sentiment where the emotions are not expressed explicitly. Companies are using sentiment analysis, 
 an application of natural language processing (NLP) to identify the opinion and sentiment of their customers online. 
@@ -31,7 +33,7 @@ which provides some information about the columns in the dataset.
  11 image 27107 non-null object
  12 Sentiment 1128437 non-null int64
  
-Data Preprocessing:
+# Data Preprocessing:
 I have done the following steps under data preprocessing:
 1. Created a new column called “Sentiment” using the overall column.
 a. 0 - negative (overall < 3)
@@ -42,12 +44,14 @@ c. 2 - positive (overall > 3)
 4. Dropped the columns 'vote', 'image', 'style', 'reviewerName' as they are not required for
 our analysis.
 5. There were 1124555 rows and 9 columns in the resulting dataset
-Exploratory Data Analysis:
+
+# Exploratory Data Analysis:
 Then I performed Exploratory Data Analysis on the data and got the following plots and
 conclusion about the data.
 Then I have done the word cloud for different groups of reviews i.e positive,
 negative and neutral.
-Training and Testing:
+
+# Training and Testing:
 In total I have trained 5 models. They are:
 1. Classification using Random Forest Model: When I used a random forest model I got
 about 79% accuracy but it predicted everything as positive. So the performance of the
@@ -63,7 +67,8 @@ the above Regression using LSTM model to the original dataframe, then preprocess
 the data and then used a Random Forest Classifier to predict the sentiment.
 I got an accuracy of 91.21% on the test data using the above model and it is the best
 accuracy I have achieved.
-Classification Report of the best model:
+
+# Classification Report of the best model:
  precision recall f1-score support
  0 0.83 0.81 0.82 34507
  1 0.59 0.49 0.54 24670
