@@ -19,22 +19,12 @@ download here. There are 1128437 rows and 12 columns in the dataset. Below is th
 which provides some information about the columns in the dataset.
 # Column Non-Null Count Dtype
 --- ------ -------------- -----
- 0 overall 1128437 non-null int64
- 1 verified 1128437 non-null bool
- 2 reviewTime 1128437 non-null datetime64[ns]
- 3 reviewerID 1128437 non-null object
- 4 asin 1128437 non-null object
- 5 style 605241 non-null object
- 6 reviewerName 1128302 non-null object
- 7 reviewText 1127672 non-null object
- 8 summary 1127920 non-null object
- 9 unixReviewTime 1128437 non-null int64
- 10 vote 92034 non-null object
- 11 image 27107 non-null object
- 12 Sentiment 1128437 non-null int64
+![image](https://user-images.githubusercontent.com/89949881/167934168-ae9b0f06-c9fc-4fda-a670-989dfe760f68.png)
+
+
  
 # Data Preprocessing:
-I have done the following steps under data preprocessing:
+
 1. Created a new column called “Sentiment” using the overall column.
 a. 0 - negative (overall < 3)
 b. 1 - neutral (overall = 3)
@@ -69,10 +59,5 @@ I got an accuracy of 91.21% on the test data using the above model and it is the
 accuracy I have achieved.
 
 # Classification Report of the best model:
- precision recall f1-score support
- 0 0.83 0.81 0.82 34507
- 1 0.59 0.49 0.54 24670
- 2 0.95 0.97 0.96 221962
- accuracy 0.91 281139
- macro avg 0.79 0.76 0.77 281139
-weighted avg 0.91 0.91 0.91 281139
+ ![redme02](https://user-images.githubusercontent.com/89949881/167934513-44311e94-9f3a-4617-b932-647abebfba43.png)
+
