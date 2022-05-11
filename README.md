@@ -30,6 +30,7 @@ which provides some information about the columns in the dataset.
  10 vote 92034 non-null object
  11 image 27107 non-null object
  12 Sentiment 1128437 non-null int64
+ 
 Data Preprocessing:
 I have done the following steps under data preprocessing:
 1. Created a new column called “Sentiment” using the overall column.
