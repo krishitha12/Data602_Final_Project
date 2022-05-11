@@ -1,4 +1,4 @@
-# Data602_Final_Project
+# Sentiment Analysis on Amazon Reviews of Cellphones and Accessories
 # Introduction
 This is an NLP experiment with the goal of understanding the emotion behind Amazon's cell phone reviews..
 
